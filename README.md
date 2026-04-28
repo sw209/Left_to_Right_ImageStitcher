@@ -24,7 +24,7 @@
 각 이미지에서 SIFT를 이용하여 특징점(Keypoint)과 기술자(Descriptor)를 추출합니다.
 
 ### 2. 특징점 매칭
-두 이미지 간의 특징점을 매칭하고, Lowe’s Ratio Test를 이용하여 잘못된 매칭을 제거합니다.
+두 이미지 간의 특징점을 매칭하고, 임계값 이하의 잘못된 매칭을 제거합니다.
 
 ### 특징점 매칭 결과
 ![match1](matches_left_center.jpg)
